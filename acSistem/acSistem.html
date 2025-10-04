@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АС|Фильтр</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="acSistem.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <span class="header-logo">АС | Фильтр</span>
+            <span class="header-tab">/ Ресурс</span>
+            <span class="header-tab">/ Цех 4</span>
+            <span class="header-tab">/ Аспирационные сети</span>
+        </header>
+        <section class="preview-info">
+            <h3>Состав аспирационной сети</h3>
+            <p>Здесь будут данные о сетях</p>
+        </section>
+        <div class="main-container">
+            <!-- <nav class="nav-bar">
+                <ul class="menu">
+                    <li><a class="menu-link" href="index.html">Цеха</a></li>
+                    <li><a class="menu-link active-link" href="/ac-sistem/acSistem.html">Аспирационные сети</a></li>
+                    <li><a class="menu-link" href="vry.html">Журналы ВРУ</a></li>
+                    <li><a class="menu-link" href="pasports.html">Паспорта сетей</a></li>
+                    <li><a class="menu-link" href="dust-meters.html">Пылимеры</a></li>
+                    <li><a class="menu-link" href="shaking-blocks.html">Блоки встряхивания</a></li>
+                    <li><a class="menu-link" href="ppr.html">ППР</a></li>
+                </ul>
+            </nav> -->
+            <main class="main">
+<div class="content">
+
+    <h2>Аспирационные сети</h2>
+    
+        <div class="acSistemList">
+            <!--тут рендерится сети-->
+        </div>
+
+</div> 
+                <footer class="footer">Здесь подвал</footer>
+            </main>
+        </div>
+    </div>
+
+    <script type="module" src="acSistemsRender.js"></script>
+    <script type="module">
+        import { initNavigation } from '../navigation.js';
+        initNavigation('.main-container');
+    </script>
+</body>
+</html>
